@@ -1,7 +1,7 @@
 @import "../scss/variables.scss";
 
 h1 {
-    color:blue;
+    color: blue;
     font-size: 400px;
     text-align: center;
     font-style: oblique;
@@ -11,7 +11,7 @@ h1 {
 }
 
 body {
-    background: linear-gradient(#c0c0aa, #1cefff);
+    background: linear-gradient(rgb(235, 235, 37), yellow);
     background-size: contain;
     background-repeat: round;
     margin: auto;
@@ -340,7 +340,8 @@ table {
     h2 {
         color: blue;
     }
-    h3{
+
+    h3 {
         color: blue;
     }
 }
@@ -502,7 +503,7 @@ table {
 
 
 .blog-card {
-    background-color: rgba(0, 0, 0, 0.651);
+    background-color: black;
     border-radius: 5px;
     padding: 10px;
     text-align: center;
@@ -699,6 +700,6 @@ instagram {
     }
 }
 
-.nav-link{
+.nav-link {
     color: white !important;
-  }
+}
