@@ -8,6 +8,8 @@
     <meta name="keyword" content="Contactanos, hace tu consulta sobre productos deportivos, Lanús">
     <meta name="description" content="consultanos sobre nuestros productos y presupuestos para tu gimnasio!">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,71 +20,83 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navColor sticky-top">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="../recursos2/logo opción 2.jpg" alt="logo" id="logo-home">
-                </a>
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
-                    <ul class="nav">
-                        <li class="nav-item">
-                            <a href="./contacto.html" class="nav-link">CONTACTO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="./shop.html" class="nav-link">SHOP</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="./indumentaria.html" class="nav-link">INDUMENTARIA</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="./nuevos.html" class="nav-link">NUEVOS</a>
-                        </li>
-
-                        <li class="nav-item"><a href="../index.html" class="nav-link">HOME</a></li>
-                    </ul>
+    <header id="header-home" class="item-home mb-0">
+        <header class="row">
+            <nav class="navbar navbar-expand-lg navbar-light bg-black mb-0">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html">
+                        <img src="../recursos2/logo opción 2.jpg" alt="logo" id="logo-home">
+                    </a>
+                    <button class="navbar-toggler btn-close-white" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Menu
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" id="contacto"
+                                            href="../views/contacto.html">Contacto</a></li>
+                                    <li><a class="dropdown-item" id="contacto" href="../views/shop.html">Shop</a></li>
+                                    <li><a class="dropdown-item" id="contacto" href="../views/nuevos.html">Nuevos</a>
+                                    </li>
+                                    <li><a class="dropdown-item" id="contacto"
+                                            href="../views/indumentaria.html">Indumentaria</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" id="contacto" href="../index.html">Home</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
-
-
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="../recursos2/vadym.jpg" class="d-block w-100" alt="foto gimnasia" height="520px">
-                </div>
-                <div class="carousel-item">
-                    <img src="../recursos2/rutina-de-pierna.jpg" class="d-block w-100" alt="foto gimnasia"
-                        height="520px">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Anterior</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Siguiente</span>
-            </button>
+            </nav>
+        </header>
         </div>
-        <h1>FIHOUSE</h1>
+        <p class="text-white text-center h5">Visita nuestras exclusivas instalaciones</p>
+        <div class="container">
+            <div class="row mt-0 mb-0">
+                <div class="col-12 col-sm-7 m-auto">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner" id="proyectos-github">
+                            <div class="carousel-item active">
+                                <img src="../recursos2/mujer.jpg" class="d-block w-75 m-auto" alt="MUJER-GIMNASIO">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../recursos2/hombre.jpg" class="d-block w-75 m-auto" alt="HOMBRE-GIMNASIO">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </header>
-
-
+    <div class="container">
+        <h1>Contacto</h1>
+    </div>
     <main class="mainContacto wow animate__backInRight">
         <form action="" method="GET">
             <input type="text" class="control" placeholder="ingrese su nombre" name="nombre" required>
@@ -115,32 +129,37 @@
 
 
     </main>
+    
+    <br>
+    <br>
+    <br>
 
+    <div class="footer-margin w-25">
 
+        <footer class="card-footer bg-dark footer-font-style text-muted footer-position bg-gradient text-center">
 
-    <footer id="footer-home" class="item-home">
-        <cite>
-            <p>
-                <em>
-                    copyright 2021 fithouse
-                    Buenos Aires, Argentina
-                </em>
-            </p>
-        </cite>
-        <div class="botonWhats"><a href="https://api.whatsapp.com/send?phone=+541166578842">
-                <img src="../recursos2/whatsapp.jpg" alt="link a whatsapp" id="whatsapp">
-            </a>
-        </div>
-        <div class="each">
-            <ul class="social">
-                <li class="facebook"></li>
-                <li class="twitter"></li>
-                <li class="instagram"></li>
-            </ul>
-        </div>
+            <a class="btn btn-outline-light  m-1" href="mailto:federico.garcia.96@outlook.es" role="button"
+                target="_blank"><i class="fa fa-paper-plane"></i></a>
+            <!-- Linkedin -->
+            <a class="btn btn-outline-info  m-1" href="#" role="button" target="_blank"><i
+                    class="fa fa-linkedin"></i></a>
 
+            <!-- Github -->
+            <a class="btn btn-outline-danger  m-1" href="https://github.com/federicoGV114" role="button"
+                target="_blank"><i class="fa fa-github"></i></a>
+            <!-- Twitter -->
+            <a class="btn btn-outline-primary  m-1" href="#!" role="button" target="_blank"><i
+                    class="fa fa-twitter"></i></a>
 
-    </footer>
+            <!-- whatsapp -->
+            <a class="btn btn-outline-success  m-1" href="https://api.whatsapp.com/send?phone=+541166578842"
+                role="button" target="_blank"><i class="fa fa-whatsapp"></i></a>
+
+            <!-- Instagram -->
+            <a class="btn btn-outline-danger  m-1" href="#!" role="button" target="_blank"><i
+                    class="fa fa-instagram"></i></a>
+        </footer>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
         integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous">
