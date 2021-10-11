@@ -1,4 +1,3 @@
-
 h1 {
   color: whitesmoke;
   font-size: 400px;
@@ -46,34 +45,8 @@ table {
   width: 100%;
   font-family: fantasy;
   list-style-position: initial;
-  /* border-color: white;
-    border-style: groove;
-    border-width: 3px;
-    border-left: white;
-    border-right: white;
-    border-top: red solid 3px;
-    border-bottom: 3px red solid */
 }
 
-.mainOfertas {
-  background-color: yellow;
-  font-style: unset;
-  font-size: 26px;
-  text-transform: uppercase;
-  color: #860b86;
-}
-
-.parrafoNuevos {
-  background-color: yellow;
-  font-style: unset;
-  letter-spacing: normal;
-  line-height: 46px;
-  word-spacing: 11px;
-  font-size: 26px;
-  text-transform: uppercase;
-  color: #860b86;
-  overflow: auto;
-}
 
 #bici-fija {
   width: 300px;
@@ -145,7 +118,7 @@ table {
 .containerr {
   display: flex;
   flex-direction: row;
-  background: black/*linear-gradient(to left, #e53935, #e35d5b)*/; 
+  background: black;
   background-position: unset;
   background-size: cover;
   justify-content: center;
@@ -215,7 +188,6 @@ table {
   color: white;
   align-items: stretch;
   justify-content: stretch;
-  /* border: solid 4px grey; */
   font-size: 18px;
   padding: 5px;
 }
@@ -310,8 +282,6 @@ table {
 
 #header-home {
   grid-area: header;
-  /* background: black; */
-
 }
 
 #nav-home {
@@ -583,70 +553,6 @@ table {
   color: #7810ff;
 }
 
-.social {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-  margin-left: 950px;
-}
-
-.facebook {
-  width: 100px;
-  height: 100px;
-  background-position: center;
-  background-size: contain;
-  background-image: url("../recursos2/socials/facebook.png");
-}
-
-.twitter {
-  width: 100px;
-  height: 100px;
-  background-position: center;
-  background-size: contain;
-  background-image: url("../recursos2/socials/twitter.png");
-}
-
-.instagram {
-  width: 100px;
-  height: 100px;
-  background-position: center;
-  background-size: contain;
-  background-image: url("../recursos2/socials/instagram.png");
-}
-
-.box-big {
-  width: 800px;
-  height: 100px;
-  background-color: red;
-  color: white;
-  margin: 10px;
-  padding: 10px;
-  text-align: center;
-  font-size: 40px;
-}
-
-.box-medium {
-  width: 800px;
-  height: 100px;
-  background-color: blue;
-  color: white;
-  margin: 10px;
-  padding: 10px;
-  text-align: center;
-  font-size: 40px;
-}
-
-.box-small {
-  width: 800px;
-  height: 100px;
-  background-color: violet;
-  color: white;
-  margin: 10px;
-  padding: 10px;
-  text-align: center;
-  font-size: 40px;
-}
 
 .parrafosPrueba {
   margin: 20px;
@@ -669,7 +575,8 @@ table {
 .nav-link {
   color: white !important;
 }
-#contacto:hover{
+
+#contacto:hover {
   background-color: #1DB954;
 }
 
@@ -684,22 +591,20 @@ footer {
 }
 
 
-body main .card{
+body main .card {
   border-radius: 4px;
   position: relative;
   background: #fff;
   fill: rgb(105, 103, 103);
-  /* box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05); */
-  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-  cursor:pointer;
+  transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+  cursor: pointer;
 }
 
-.card:hover{
+.card:hover {
   transform: translateY(-3px);
   box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
-  /* transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06); */
 }
+
 .img__description::after {
   content: "";
   display: block;
@@ -725,10 +630,10 @@ body main .card{
   color: #fff;
   opacity: 0.9;
   bottom: -70%;
-  
+
 }
 
-.img__description{
+.img__description {
   transition: top 0.2s ease-out, bottom 0.5s ease-out;
 }
 
@@ -744,14 +649,14 @@ body main .card{
   transition-delay: 0.2s;
 }
 
-#carta {  
+#carta {
   position: relative;
   overflow: hidden;
   padding: 1rem;
   width: 100%;
   color: whitesmoke;
   background-color: whitesmoke;
-  
+
 }
 
 
@@ -768,24 +673,29 @@ body main .card{
 .content {
   margin-bottom: 4em;
 }
+
 .content p {
   display: inline;
   background-repeat: no-repeat;
   transition: all 500ms ease-in-out;
 }
+
 .container {
   max-width: 600px;
   margin: 0 auto;
   padding: 1em;
 }
+
 .container h1 {
   font-size: 2.2rem;
 }
+
 .v7 p {
   background-position: left;
   background-size: 0% 100%;
   background-image: linear-gradient(to right, #f6e05e, #f6e05e);
 }
+
 .v7:hover p {
   background-position: right;
   background-size: 100% 100%;
@@ -794,96 +704,115 @@ body main .card{
 /*ERROR 404*/
 
 .error-container {
-	text-align: center;
-	font-size: 180px;
-	font-family: 'Catamaran', sans-serif;
-	font-weight: 800;
-	margin: 20px 15px;
+  text-align: center;
+  font-size: 180px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 800;
+  margin: 20px 15px;
 }
-.error-container > span {
-	display: inline-block;
-	line-height: 0.7;
-	position: relative;
-	color: #FFB485;
+
+.error-container>span {
+  display: inline-block;
+  line-height: 0.7;
+  position: relative;
+  color: #FFB485;
 }
-.error-container > span > span {
-	display: inline-block;
-	position: relative;
+
+.error-container>span>span {
+  display: inline-block;
+  position: relative;
 }
-.error-container > span:nth-of-type(1) {
-	perspective: 1000px;
-	perspective-origin: 500% 50%;
-	color: #F0E395;
+
+.error-container>span:nth-of-type(1) {
+  perspective: 1000px;
+  perspective-origin: 500% 50%;
+  color: #F0E395;
 }
-.error-container > span:nth-of-type(1) > span {
-	transform-origin: 50% 100% 0px;
-	transform: rotateX(0);
-	animation: easyoutelastic 8s infinite;
+
+.error-container>span:nth-of-type(1)>span {
+  transform-origin: 50% 100% 0px;
+  transform: rotateX(0);
+  animation: easyoutelastic 8s infinite;
 }
-.error-container > span:nth-of-type(3) {
-	perspective: none;
-	perspective-origin: 50% 50%;
-	color: #D15C95;
+
+.error-container>span:nth-of-type(3) {
+  perspective: none;
+  perspective-origin: 50% 50%;
+  color: #D15C95;
 }
-.error-container > span:nth-of-type(3) > span {
-	transform-origin: 100% 100% 0px;
-	transform: rotate(0deg);
-	animation: rotatedrop 8s infinite;
+
+.error-container>span:nth-of-type(3)>span {
+  transform-origin: 100% 100% 0px;
+  transform: rotate(0deg);
+  animation: rotatedrop 8s infinite;
 }
 
 
 @keyframes easyoutelastic {
-	0% {
-		transform: rotateX(0);
-	}
-	9% {
-		transform: rotateX(210deg);
-	}
-	13% {
-		transform: rotateX(150deg);
-	}
-	16% {
-		transform: rotateX(200deg);
-	}
-	18% {
-		transform: rotateX(170deg);
-	}
-	20% {
-		transform: rotateX(180deg);
-	}
-	60% {
-		transform: rotateX(180deg);
-	}
-	80% {
-		transform: rotateX(0);
-	}
-	100% {
-		transform: rotateX(0);
-	}
+  0% {
+    transform: rotateX(0);
+  }
+
+  9% {
+    transform: rotateX(210deg);
+  }
+
+  13% {
+    transform: rotateX(150deg);
+  }
+
+  16% {
+    transform: rotateX(200deg);
+  }
+
+  18% {
+    transform: rotateX(170deg);
+  }
+
+  20% {
+    transform: rotateX(180deg);
+  }
+
+  60% {
+    transform: rotateX(180deg);
+  }
+
+  80% {
+    transform: rotateX(0);
+  }
+
+  100% {
+    transform: rotateX(0);
+  }
 }
 
 @keyframes rotatedrop {
-	0% {
-		transform: rotate(0);
-	}
-	10% {
-		transform: rotate(30deg);
-	}
-	15% {
-		transform: rotate(90deg);
-	}
-	70% {
-		transform: rotate(90deg);
-	}
-	80% {
-		transform: rotate(0);
-	}
-	100% {
-		transform: rotateX(0);
-	}
+  0% {
+    transform: rotate(0);
+  }
+
+  10% {
+    transform: rotate(30deg);
+  }
+
+  15% {
+    transform: rotate(90deg);
+  }
+
+  70% {
+    transform: rotate(90deg);
+  }
+
+  80% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotateX(0);
+  }
 }
 
- .anchor-init {
+.anchor-init {
   color: #FFFFFF !important;
   text-decoration: none !important;
 }
